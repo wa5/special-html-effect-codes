@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+<style>
+*{padding: 0;
+margin: 0;}
+#wrapper{border: solid;padding: 10px;}
+#header{height: 100px;background-color: hotpink;padding: 10px;}
+#logo{width: 150px;height: 100px;background-color: indigo;}
+#navbar{height: 50px;background-color: khaki;margin-top: 10px;}
+#container{border:solid red;margin-top: 10px;}
+#container::after{content: " ";display: block;clear: both;}
+#left-section{width: 24%;height: 600px;background-color: lightgrey;float: left;}
+#middle-section{width: 52%;height: 600px;background-color: rgb(43, 12, 12);float:left;}
+#right-section{width: 24%;height: 600px;background-color: rgb(114, 111, 111);float:right;}
+</style>
+</head>
+
+<body>
+<div id="wrapper">
+<div id="header">
+<div id="logo"></div>
+</div>
+
+<div id="navbar"></div>
+<div id="container">
+
+    <div id="left-section"></div>
+    <div id="middle-section"></div>
+    <div id="right-section"></div>
+</div>
+</div>
+
+</body>
+</html>
