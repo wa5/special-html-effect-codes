@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap 4 Website Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  
+  
+  
+  <style>
+  .fakeimg {
+    height: 200px;
+    background: #aaa;
+  }
+  </style>
+
+
+</head>
+
+
+
+<body>
+
+        
+        <nav class="navbar sticky-top  navbar-light  bg-light">
+                <a class="navbar-brand">icons</a>
+                  </form>
+              </nav>     
+<!-- nav bar starts-->
+    
+<nav class="navbar sticky-top navbar-expand-lg navbar-light  bg-dark">
+
+        <a class="navbar-brand" href="#">
+                <img src="bp\bg4.jpg" width="30" height="30" alt="">
+              </a>
+    <a class="navbar-brand text-light" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active ">
+          <a class="nav-link text-light" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled text-light" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+<!--nav bar ends-->
+<!--jumbotron starts-->
+<div class="jumbotron jumbotron-fluid">
+
+        <div class="container">
+          <h1 class="display-7">C-LANGUAGE</h1>
+          <p class="lead"></p>
+  
+       
+        </div>
+      </div>
+
+<div class="container-fluid" style="margin-top:30px">
+  <div class="row">
+
+
+    <div class="col-sm-3 bg-light">
+        
+            <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action bg-danger active">
+                      C-PROGRAMING LESSONS
+                    </a>
+                    <a href="new page2.html" class="list-group-item list-group-item-action  list-group-item-info text-primary">C-HOME</a>
+                    <a href="c2.html" class="list-group-item list-group-item-action list-group-item-info text-primary">C-OVERVIEW</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-info text-primary">ENVIRNMENT SETUP</a>
+                  
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-info text-primary">bASIC SYNTAX</a>
+
+                    <a href="#" class="list-group-item list-group-item-action  list-group-item-info text-primary">DATA TYPES</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-info text-primary">VARIABLES</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-info text-primary">CONSTANTS</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-info text-primary">STORAGE CLASSES</a>
+                    <a href="#" class="list-group-item list-group-item-action  list-group-item-info text-primary">DECICIAN MAKING</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-info text-primary">LOOPS</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-info text-primary">FUNCTIONS</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-info text-primary">SCOPE RULES</a>
+                    <a href="#" class="list-group-item list-group-item-action  list-group-item-info text-primary">ARRAYS</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-info text-primary">POINTERS</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-info text-primary">STRINGS</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-info text-primary">STRUCTURES</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-info text-primary">UNIONS</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-info text-primary">BIT-FIELDS</a>
+                    <a href="#" class="list-group-item list-group-item-action  list-group-item-info text-primary">TYPEDEFF</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-info text-primary">INPUT AND OUTPIUT</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-info text-primary">FILE I/O</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-info text-primary">PREPROSESORS</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-info text-primary">HEADER FILES</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-info text-primary">SCOPE RULES</a>  
+                    
+                    
+                    <a href="#" class="list-group-item list-group-item-action disabled list-group-item-info text-primary" tabindex="-1" aria-disabled="true">Vestibulum at eros</a>
+                  </div> 
+        
+
+
+
+                      
+                  
+      
+    </div>
+    <div class="col-sm-5 bg-light">
+        <h3>HOME</h3>
+<P>C programming is a general-purpose, procedural, imperative computer programming language developed in 1972 by Dennis M. Ritchie at the Bell Telephone Laboratories to develop the UNIX operating system. C is the most widely used computer language. It keeps fluctuating at number one scale of popularity along with Java programming language, which is also equally popular and most widely used among modern software programmers.
+
+        Why to Learn C Programming?
+        C programming language is a MUST for students and working professionals to become a great Software Engineer specially when they are working in Software Development Domain. I will list down some of the key advantages of learning C Programming:
+        
+        Easy to learn
+        
+        Structured language
+        
+        It produces efficient programs
+        
+        It can handle low-level activities
+        
+        It can be compiled on a variety of computer platforms
+        
+        Facts about C
+        C was invented to write an operating system called UNIX.
+        
+        C is a successor of B language which was introduced around the early 1970s.
+        
+        The language was formalized in 1988 by the American National Standard Institute (ANSI).
+        
+        The UNIX OS was totally written in C.
+        
+        Today C is the most widely used and popular System Programming Language.
+        
+        Most of the state-of-the-art software have been implemented using C.
+        
+        Today's most popular Linux OS and RDBMS MySQL have been written in C.
+        
+        Hello World using C Programming.
+        Just to give you a little excitement about C programming, I'm going to give you a small conventional C Programming Hello World program, You can try it using Demo link</P>
+      </div>
+      <div class="col-sm-4">
+
+        </div>
+  </div>
+</div>
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <p>Footer</p>
+</div>
+
+</body>
+</html>
