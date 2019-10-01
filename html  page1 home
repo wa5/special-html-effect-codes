@@ -77,7 +77,7 @@
 <div class="jumbotron jumbotron-fluid">
 
         <div class="container">
-          <h1 class="display-7">HTML</h1>
+          <h1 class="display-7">C-LANGUAGE</h1>
           <p class="lead"></p>
   
        
@@ -90,12 +90,25 @@
 
     <div class="col-sm-3 bg-light">
         
-            <div class="list-group">
+
+
+
+
+
+
+            <nav class="navbar    navbar-expand-lg navbar-light bg-light d-lg-none d-xl-block">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse flex-column" id="navbarTogglerDemo01">
+                
+                <!--nav items of the language-->
+                <div class="list-group">
                     <a href="#" class="list-group-item list-group-item-action bg-danger active">
                       C-PROGRAMING LESSONS
                     </a>
-                    <a href="new page2.html" class="list-group-item list-group-item-action  list-group-item-info text-primary">HOME</a>
-                    <a href="c2.html" class="list-group-item list-group-item-action list-group-item-info text-primary">ENTRO</a>
+                    <a href="new page2.html" class="list-group-item list-group-item-action  list-group-item-info text-primary">C-HOME</a>
+                    <a href="c2.html" class="list-group-item list-group-item-action list-group-item-info text-primary">C-OVERVIEW</a>
                     <a href="#" class="list-group-item list-group-item-action list-group-item-info text-primary">ENVIRNMENT SETUP</a>
                   
                     <a href="#" class="list-group-item list-group-item-action list-group-item-info text-primary">bASIC SYNTAX</a>
@@ -125,6 +138,28 @@
                     <a href="#" class="list-group-item list-group-item-action disabled list-group-item-info text-primary" tabindex="-1" aria-disabled="true">Vestibulum at eros</a>
                   </div> 
         
+                  
+                  
+                </div>
+              </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
 
 
 
