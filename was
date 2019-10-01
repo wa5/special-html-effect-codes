@@ -505,8 +505,76 @@ body, html {
 <div class="jumbotron text-center bg-dark" style="margin-bottom:0">
   <p>Footer</p>
 </div>
-<div class="jumbotron text-center" style="margin-bottom:0">
-    <p>Footer</p>
+<div class="jumbotron text-center bg-dark" style="margin-bottom:0">
+  <div class="container ">
+    <div class="row">
+  <div class="col-sm-4">
+  <ul class="nav flex-column">
+    <li class="nav-item ">
+      <a class="nav-link active text-light border-bottom" href="#"><h3>About us</h3></a>
+    </li>
+    <li class="nav-item ">
+      <a class="nav-link text-light " href="#">Privacy Policy</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-light " href="#">Our Team</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-light " href="#">Cookies Policy</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-light " href="#">Terms of use</a>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link disabled text-light" href="#" tabindex="-1" aria-disabled="true">Careers</a>
+    </li>
+  </ul>
+</div>
+<div class="col-sm-4 ">
+    <ul class="nav flex-column">
+  <li class="nav-item ">
+    <a class="nav-link active text-light border-bottom" href="#"><h3>Follow us</h3></a>
+  </li>
+
+  <li class="nav-item ">
+
+   
+      <a class="btn-floating btn-dark btn-lg btn-fb " type="button" role="button"><i class="fab fa-facebook" style="font-size:30px;color:#3B5998;text-shadow:2px 2px 4px #000000;"></i></a>
+  </li>
+  <li class="nav-item ">
+
+   
+      <a class="btn-floating btn-dark btn-lg  " type="button" role="button"><i class="fab fa-youtube" style="font-size:30px;color:#bb0000;text-shadow:2px 2px 4px #000000;"></i></a>
+  </li>
+  <li class="nav-item ">
+
+   
+      <a class="btn-floating btn-dark btn-lg  " type="button" role="button"><i class="fab fa-twitter" style="font-size:30px;color:#55ACEE;text-shadow:2px 2px 4px #000000;"></i></a>
+  </li>
+  <li class="nav-item ">
+
+   
+      <a class="btn-floating btn-dark btn-lg  " type="button" role="button"><i class="fab fa-linkedin-in" style="font-size:30px;color:#007bb5;text-shadow:2px 2px 4px #000000;"></i></a>
+  </li>
+  </ul>
+</div>
+<div class="col-sm-4 ">
+    <ul class="nav flex-column">
+        <li class="nav-item ">
+          <a class="nav-link active text-light border-bottom" href="#"><h3>Contact us</h3></a>
+        </li>
+<li class="nav-item ">
+
+ <h1 class="text-light"> xyz@gmail.com</h2>
+    
+</li>
+
+        </ul>
+
+</div>
+
   </div>
+  </div> 
 </body>
 </html>
