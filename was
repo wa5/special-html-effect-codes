@@ -8,32 +8,10 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  
   <script src="https://kit.fontawesome.com/c8d45d9756.js" crossorigin="anonymous"></script>
-
-  <link type="stylesheet" href="custem-stylesheet.css">
+  
   
   <style>
-
-body, html {
-    height: 100%;
-  }
-  .bg {
-    /* The image used */
-    background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(11).jpg");
-  
-    /* Half height */
-    height: 50%;
-  
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-  background-attachment: fixed;
-  
-    background-size: cover;
-  }
-
-
   .fakeimg {
     height: 200px;
     background: #aaa;
@@ -46,463 +24,220 @@ body, html {
 
 
 <body>
-    <!--nav bar ends-->
-    <nav class="navbar navbar-expand-lg  sticky-top navbar-light bg-dark">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
 
-                    <img src="bg5.jpg" alt="logo" style="width:50px; height: 40px;">
-                </a>
-              <a class="navbar-brand text-light" href="#"><h3>Hidden brand</h3></a>
-              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item active">
-                  <a class="nav-link text-light " href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-<!--dropd-->
-<div class="dropdown ">
-    <a class="btn btn-danger dropdown-toggle" href="#" role="button" id="dropdownMenuLink1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      languages
-    </a>
-  
-    <div class="dropdown-menu  " aria-labelledby="dropdownMenuLink1">
-      <a class="dropdown-item " href="#">C-language</a>
-      <a class="dropdown-item" href="#">C++ language</a>
-      <a class="dropdown-item" href="#">HTML</a>
-      <a class="dropdown-item" href="#">CSS</a>
-      <a class="dropdown-item" href="#">JAVASCRIPT</a>
-      <a class="dropdown-item" href="#">JQUERY</a>
-      <a class="dropdown-item" href="#">BOOTSTRAP</a>
-    </div>
-  </div>
-<!--dropd ends-->
+        
+        <nav class="navbar sticky-top  navbar-light  bg-light">
+                <a class="navbar-brand">icons</a>
+                  </form>
+
+            
+                    <ul class="nav ">
+              
                 
-<li class="nav-item active">
-    <a class="nav-link text-light " href="#">About </a>
-  </li>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link disabled text-light" href="#" tabindex="-1" aria-disabled="true">Carrier</a>
-                </li>
-              </ul>
-              <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success bg-success-60 my-2 my-sm-0" type="submit">Search</button>
-              </form>
-            </div>
-          </nav>
-              <!--nav bar ends-->
+                  <li class="nav-item ">
+                
+                   
+                      <a class="btn-floating btn-dark btn-lg btn-fb " type="button" role="button"><i class="fab fa-facebook" style="font-size:30px;color:#3B5998;text-shadow:2px 2px 4px #000000;"></i></a>
+                  </li>
+                  <li class="nav-item ">
+                
+                   
+                      <a class="btn-floating btn-dark btn-lg  " type="button" role="button"><i class="fab fa-youtube" style="font-size:30px;color:#bb0000;text-shadow:2px 2px 4px #000000;"></i></a>
+                  </li>
+                  <li class="nav-item ">
+                
+                   
+                      <a class="btn-floating btn-dark btn-lg  " type="button" role="button"><i class="fab fa-twitter" style="font-size:30px;color:#55ACEE;text-shadow:2px 2px 4px #000000;"></i></a>
+                  </li>
+                  <li class="nav-item ">
+                
+                   
+                      <a class="btn-floating btn-dark btn-lg  " type="button" role="button"><i class="fab fa-linkedin-in" style="font-size:30px;color:#007bb5;text-shadow:2px 2px 4px #000000;"></i></a>
+                  </li>
+                  </ul>
+        
 
+              </nav>     
 
-<!--caurosel starts-->
+<!-- nav bar starts-->
+    
+<nav class="navbar sticky-top navbar-expand-lg navbar-light  bg-dark">
 
-<div class="card bg-dark text-white" >
-    <img src="bg3.jpg" class="card-img d-block w-100" alt="...">
-    <div class="card-img-overlay">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <p class="card-text">Last updated 3 mins ago</p>
-
-
-
-
-      
+        <a class="navbar-brand" href="#">
+                <img src="bp\bg4.jpg" width="30" height="30" alt="">
+              </a>
+    <a class="navbar-brand text-light" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active ">
+          <a class="nav-link text-light" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled text-light" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
     </div>
-  </div>
+  </nav>
 
-<!--caurosel ends-->
+<!--nav bar ends-->
+<!--jumbotron starts-->
+<div class="jumbotron jumbotron-fluid">
 
-
-<!-- JUMBOTRON 1 STARTS-->
-<div class="jumbotron text-center" style="margin-bottom:0">
-  <h1>My First Bootstrap 4 Page</h1>
-  <p>Resize this responsive page to see the effect!</p> 
+        <div class="container">
+          <h1 class="display-7">C-LANGUAGE</h1>
+          <p class="lead"></p>
   
- 
-</div>
+       
+        </div>
+      </div>
 
-
-  
-<!--CONTAINERR 1-->
 <div class="container-fluid" style="margin-top:30px">
-
-  <!--row1-->
   <div class="row">
 
-      <div class="col-sm-1  " >
 
+    <div class="col-sm-3 bg-light">
         
-   
-    
+
+
+
+
+
+
+            <nav class="navbar    navbar-expand-lg navbar-light bg-light d-lg-none d-xl-block">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse flex-column" id="navbarTogglerDemo01">
+                
+                <!--nav items of the language-->
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action bg-danger active">
+                      C-PROGRAMING LESSONS
+                    </a>
+                    <a href="new page2.html" class="list-group-item list-group-item-action  list-group-item-info text-primary">C-HOME</a>
+                    <a href="c2.html" class="list-group-item list-group-item-action list-group-item-info text-primary">C-OVERVIEW</a>
+                    <a href="glases.html" class="list-group-item list-group-item-action list-group-item-info text-primary">ENVIRNMENT SETUP</a>
+                  
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-info text-primary">bASIC SYNTAX</a>
+
+                    <a href="#" class="list-group-item list-group-item-action  list-group-item-info text-primary">DATA TYPES</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-info text-primary">VARIABLES</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-info text-primary">CONSTANTS</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-info text-primary">STORAGE CLASSES</a>
+                    <a href="#" class="list-group-item list-group-item-action  list-group-item-info text-primary">DECICIAN MAKING</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-info text-primary">LOOPS</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-info text-primary">FUNCTIONS</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-info text-primary">SCOPE RULES</a>
+                    <a href="#" class="list-group-item list-group-item-action  list-group-item-info text-primary">ARRAYS</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-info text-primary">POINTERS</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-info text-primary">STRINGS</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-info text-primary">STRUCTURES</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-info text-primary">UNIONS</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-info text-primary">BIT-FIELDS</a>
+                    <a href="#" class="list-group-item list-group-item-action  list-group-item-info text-primary">TYPEDEFF</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-info text-primary">INPUT AND OUTPIUT</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-info text-primary">FILE I/O</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-info text-primary">PREPROSESORS</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-info text-primary">HEADER FILES</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-info text-primary">SCOPE RULES</a>  
+                    
+                    
+                    <a href="#" class="list-group-item list-group-item-action disabled list-group-item-info text-primary" tabindex="-1" aria-disabled="true">Vestibulum at eros</a>
+                  </div> 
         
-    
+                  
+                  
+                </div>
+              </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+
+
+
+                      
+                  
+      
+    </div>
+    <div class="col-sm-5 bg-light">
+        <h3>HOME</h3>
+<P>C programming is a general-purpose, procedural, imperative computer programming language developed in 1972 by Dennis M. Ritchie at the Bell Telephone Laboratories to develop the UNIX operating system. C is the most widely used computer language. It keeps fluctuating at number one scale of popularity along with Java programming language, which is also equally popular and most widely used among modern software programmers.
+
+        Why to Learn C Programming?
+        C programming language is a MUST for students and working professionals to become a great Software Engineer specially when they are working in Software Development Domain. I will list down some of the key advantages of learning C Programming:
+        
+        Easy to learn
+        
+        Structured language
+        
+        It produces efficient programs
+        
+        It can handle low-level activities
+        
+        It can be compiled on a variety of computer platforms
+        
+        Facts about C
+        C was invented to write an operating system called UNIX.
+        
+        C is a successor of B language which was introduced around the early 1970s.
+        
+        The language was formalized in 1988 by the American National Standard Institute (ANSI).
+        
+        The UNIX OS was totally written in C.
+        
+        Today C is the most widely used and popular System Programming Language.
+        
+        Most of the state-of-the-art software have been implemented using C.
+        
+        Today's most popular Linux OS and RDBMS MySQL have been written in C.
+        
+        Hello World using C Programming.
+        Just to give you a little excitement about C programming, I'm going to give you a small conventional C Programming Hello World program, You can try it using Demo link</P>
+      </div>
+      <div class="col-sm-4">
+
         </div>
-     
-    <div class="col-sm-5 ">
-<!--sddd<img src="bp\bg4.jpg" alt="..." class="rounded-pill img-fluid">-->
-
-<div class="card  text-white rounded-pill ">
-  <img src="bg4.jpg" class="card-img  rounded-pill img-fluid " alt="...">
-  <div class="card-img-overlay">
-    <br>
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-    <p class="card-text">Last updated 3 mins ago
-        <a href="#" class="btn btn-primary stretched-link">Go somewhere</a>
-    </p>
-    
-    
   </div>
 </div>
 
-
-       </div>
-
-       
-       <div class="col-sm-5 ">
-          <div class="card bg-light text-white rounded-pill">
-              <img src="bg3.jpg" class="card-img  rounded-pill img-fluid" alt="...">
-              <div class="card-img-overlay">
-                <br>
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <p class="card-text">Last updated 3 mins ago
-                    <a href="#" class="btn btn-primary stretched-link">Go somewhere</a>
-                </p>
-              </div>
-            </div>
-      </div>
-      
-      <div class="col-sm-1  " >
-
-        
-   
-    
-        
-    
-        </div>
-  </div>
-
-    <!--row2-->
-    <div class="row" style="margin-top: 80px;margin-bottom: 30px;">
-
-        <div class="col-sm-1  " >
-  
-          
-     
-      
-          
-      
-          </div>
-       
-      <div class="col-sm-5 ">
-  <!--sddd<img src="bp\bg4.jpg" alt="..." class="rounded-pill img-fluid">-->
-  
-  <div class="card  text-white rounded-pill ">
-    <img src="bg4.jpg" class="card-img  rounded-pill img-fluid " alt="...">
-    <div class="card-img-overlay">
-      <br>
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <p class="card-text">Last updated 3 mins ago
-          <a href="#" class="btn btn-primary stretched-link">Go somewhere</a>
-      </p>
-      
-      
-    </div>
-  </div>
-  
-  
-         </div>
-  
-         
-         <div class="col-sm-5 ">
-            <div class="card bg-light text-white rounded-pill">
-                <img src="bg3.jpg" class="card-img  rounded-pill img-fluid" alt="...">
-                <div class="card-img-overlay">
-                  <br>
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text">Last updated 3 mins ago
-                      <a href="#" class="btn btn-primary stretched-link">Go somewhere</a>
-                  </p>
-                </div>
-              </div>
-        </div>
-        
-        <div class="col-sm-1  " >
-  
-          
-     
-      
-          
-      
-          </div>
-    </div>
-</div>
-
-<!--JUMBOTRON 2-->
-  <div class="jumbotron bg text-center bg-light" style="margin-bottom:0">
-    <h1>My First Bootstrap 4 Page</h1>
-    <p>Resize this responsive page to see the effect!</p> 
-  </div>
-<!--CONTAINER 2-->
- 
-<div class="container-fluid" style="margin-top:30px">
-
-    <!--row1-->
-    <div class="row">
-  
-        <div class="col-sm-1  " >
-  
-          
-     
-      
-          
-      
-          </div>
-       
-      <div class="col-sm-5 ">
-  <!--sddd<img src="bp\bg4.jpg" alt="..." class="rounded-pill img-fluid">-->
-  
-  <div class="card  text-white rounded-pill " >
-    <img src="bg4.jpg" class="card-img  rounded-pill img-fluid " alt="...">
-    <div class="card-img-overlay">
-      <br>
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <p class="card-text">Last updated 3 mins ago
-          <a href="#" class="btn btn-primary stretched-link">Go somewhere</a>
-      </p>
-      
-      
-    </div>
-  </div>
-  
-  
-         </div>
-  
-         
-         <div class="col-sm-5 ">
-            <div class="card bg-light text-white rounded-pill">
-                <img src="bg3.jpg" class="card-img  rounded-pill img-fluid" alt="...">
-                <div class="card-img-overlay">
-                  <br>
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text">Last updated 3 mins ago
-                      <a href="#" class="btn btn-primary stretched-link">Go somewhere</a>
-                  </p>
-                </div>
-              </div>
-        </div>
-        
-        <div class="col-sm-1  " >
-  
-          
-     
-      
-          
-      
-          </div>
-    </div>
-  
-      <!--row2-->
-      <div class="row" style="margin-top: 80px;margin-bottom: 30px;">
-  
-          <div class="col-sm-1  " >
-    
-            
-       
-        
-            
-        
-            </div>
-         
-        <div class="col-sm-5 ">
-    <!--sddd<img src="bp\bg4.jpg" alt="..." class="rounded-pill img-fluid">-->
-    
-    <div class="card  text-white rounded-pill ">
-      <img src="bg4.jpg" class="card-img  rounded-pill img-fluid " alt="...">
-      <div class="card-img-overlay">
-        <br>
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text">Last updated 3 mins ago
-            <a href="#" class="btn btn-primary stretched-link">Go somewhere</a>
-        </p>
-        
-        
-      </div>
-    </div>
-    
-    
-           </div>
-    
-           
-           <div class="col-sm-5 ">
-              <div class="card bg-light text-white rounded-pill">
-                  <img src="bg3.jpg" class="card-img  rounded-pill img-fluid" alt="...">
-                  <div class="card-img-overlay">
-                    <br>
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <p class="card-text">Last updated 3 mins ago
-                        <a href="#" class="btn btn-primary stretched-link">Go somewhere</a>
-                    </p>
-                  </div>
-                </div>
-          </div>
-          
-          <div class="col-sm-1  " >
-    
-            
-       
-        
-            
-        
-            </div>
-      </div>
-  </div>
- 
-
-
-
-<!-- JUMBOTRON 3-->
-<div class="jumbotron bg text-center bg-primary" style="margin-bottom:0; ">
-
-
-
-
-
-
-  <h1>this is it</h1>
-  <p>Resize this responsive page to see the effect!</p> 
-</div>
-
-<!--CONTAINER 3-->
-
-<div class="container-fluid" style="margin-top:30px">
-
-    <!--row1-->
-    <div class="row">
-  
-        <div class="col-sm-1  " >
-  
-          
-     
-      
-          
-      
-          </div>
-       
-      <div class="col-sm-5 ">
-  <!--sddd<img src="bp\bg4.jpg" alt="..." class="rounded-pill img-fluid">-->
-  
-  <div class="card  text-white rounded-pill ">
-    <img src="bg4.jpg" class="card-img  rounded-pill img-fluid " alt="...">
-    <div class="card-img-overlay">
-      <br>
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <p class="card-text">Last updated 3 mins ago
-          <a href="#" class="btn btn-primary stretched-link">Go somewhere</a>
-      </p>
-      
-      
-    </div>
-  </div>
-  
-  
-         </div>
-  
-         
-         <div class="col-sm-5 ">
-            <div class="card bg-light text-white rounded-pill">
-                <img src="bg3.jpg" class="card-img  rounded-pill img-fluid" alt="...">
-                <div class="card-img-overlay">
-                  <br>
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text">Last updated 3 mins ago
-                      <a href="#" class="btn btn-primary stretched-link">Go somewhere</a>
-                  </p>
-                </div>
-              </div>
-        </div>
-        
-        <div class="col-sm-1  " >
-  
-          
-     
-      
-          
-      
-          </div>
-    </div>
-  
-      <!--row2-->
-      <div class="row" style="margin-top: 80px;margin-bottom: 30px;">
-  
-          <div class="col-sm-1  " >
-    
-            
-       
-        
-            
-        
-            </div>
-         
-        <div class="col-sm-5 ">
-    <!--sddd<img src="bp\bg4.jpg" alt="..." class="rounded-pill img-fluid">-->
-    
-    <div class="card  text-white rounded-pill ">
-      <img src="bg4.jpg" class="card-img  rounded-pill img-fluid " alt="...">
-      <div class="card-img-overlay">
-        <br>
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text">Last updated 3 mins ago
-            <a href="#" class="btn btn-primary stretched-link">Go somewhere</a>
-        </p>
-        
-        
-      </div>
-    </div>
-    
-    
-           </div>
-    
-           
-           <div class="col-sm-5 ">
-              <div class="card bg-light text-white rounded-pill">
-                  <img src="bg3.jpg" class="card-img  rounded-pill img-fluid" alt="...">
-                  <div class="card-img-overlay">
-                    <br>
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <p class="card-text">Last updated 3 mins ago
-                        <a href="#" class="btn btn-primary stretched-link">Go somewhere</a>
-                    </p>
-                  </div>
-                </div>
-          </div>
-          
-          <div class="col-sm-1  " >
-    
-            
-       
-        
-            
-        
-            </div>
-      </div>
-  </div>
-
-
-<div class="jumbotron text-center bg-dark" style="margin-bottom:0">
+<div class="jumbotron text-center" style="margin-bottom:0">
   <p>Footer</p>
 </div>
 <div class="jumbotron text-center bg-dark" style="margin-bottom:0">
@@ -578,3 +313,4 @@ body, html {
   </div> 
 </body>
 </html>
+
