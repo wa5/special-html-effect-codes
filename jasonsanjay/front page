@@ -8,7 +8,8 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  
+  <script src="https://kit.fontawesome.com/c8d45d9756.js" crossorigin="anonymous"></script>
+
   
   
   <style>
@@ -121,12 +122,12 @@
 </div>
 </div>
 <!--jumbotron starts hear-->
-<div class="jumbotron mx-3">
+<div class="jumbotron my-3">
   <h1 class="display-4">king kong</h1>
 </div>
 
 <div class="container" style="margin-top:30px">
-  <div class="row bg-dark">
+  <div class="row ">
 
 
     <div class="col-sm-2 bg-light shadow-lg ">   
@@ -135,8 +136,7 @@
         <p class="h5">Jason Sanjay was born in London to South Indian actor Vijay and Sangeeta Sornalingam. He has a sister named Divya Shasha. He is the grandson of S. A. Chandrasekhar and Shoba. He made a special appearance with his father in the 2009 Tamil film Vettaikaaran. Jason Sanjay was graduated in Applied Information Sciences (AIS). His father Vijay is a charismatic actor who brought new dimensions to the actor-fan relationship. Jason Sanjay & Divya Sasha are not on any Social Media. Check out below for Jason Sanjay (Vijay Son) Wiki, Biography, Age, Movies, Images, and More.</p>
 
         <div class="embed-responsive embed-responsive-16by9">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/82OGcAQY200" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/1JYduziUaBg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  </div>
 
 
     </div>
@@ -145,10 +145,100 @@
  </div>
   </div>
 </div>
-
-<div class="jumbotron text-center bg-dark" style="margin-bottom:0">
-  <p>Footer</p>
-</div>
+<div class="jumbotron my-3">
+    <h1 class="display-4">king kong</h1>
+  </div>
+  <div class="container" style="margin-top:30px">
+      <div class="row ">
+    
+    
+        <div class="col-sm-2 bg-light shadow-lg ">   
+          
+        </div>
+        <div class="col-sm-8  shadow-lg p-3  bg-white rounded">   
+            <p class="h5">he worked in recent short movie it is called calling siri</p>
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/82OGcAQY200" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+        </div>
+      </div>
+        <div class="col-sm-2 bg-light shadow-lg ">
+    
+     </div>
+      </div>
+    </div>
+  </div>
+  <div class="jumbotron text-center bg-dark" style="margin-bottom:0">
+      <div class="container ">
+        <div class="row">
+      <div class="col-sm-4">
+      <ul class="nav flex-column">
+        <li class="nav-item ">
+          <a class="nav-link active text-light border-bottom" href="#"><h3>About us</h3></a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link text-light " href="#">Privacy Policy</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light " href="#">Our Team</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light " href="#">Cookies Policy</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light " href="#">Terms of use</a>
+        </li>
+    
+        <li class="nav-item">
+          <a class="nav-link disabled text-light" href="#" tabindex="-1" aria-disabled="true">Careers</a>
+        </li>
+      </ul>
+    </div>
+    <div class="col-sm-4 ">
+        <ul class="nav flex-column">
+      <li class="nav-item ">
+        <a class="nav-link active text-light border-bottom" href="#"><h3>Follow us</h3></a>
+      </li>
+    
+      <li class="nav-item ">
+    
+       
+          <a class="btn-floating btn-dark btn-lg btn-fb " type="button" role="button"><i class="fab fa-facebook" style="font-size:30px;color:#3B5998;text-shadow:2px 2px 4px #000000;"></i></a>
+      </li>
+      <li class="nav-item ">
+    
+       
+          <a class="btn-floating btn-dark btn-lg  " type="button" role="button"><i class="fab fa-youtube" style="font-size:30px;color:#bb0000;text-shadow:2px 2px 4px #000000;"></i></a>
+      </li>
+      <li class="nav-item ">
+    
+       
+          <a class="btn-floating btn-dark btn-lg  " type="button" role="button"><i class="fab fa-twitter" style="font-size:30px;color:#55ACEE;text-shadow:2px 2px 4px #000000;"></i></a>
+      </li>
+      <li class="nav-item ">
+    
+       
+          <a class="btn-floating btn-dark btn-lg  " type="button" role="button"><i class="fab fa-linkedin-in" style="font-size:30px;color:#007bb5;text-shadow:2px 2px 4px #000000;"></i></a>
+      </li>
+      </ul>
+    </div>
+    <div class="col-sm-4 ">
+        <ul class="nav flex-column">
+            <li class="nav-item ">
+              <a class="nav-link active text-light border-bottom" href="#"><h3>Contact us</h3></a>
+            </li>
+    <li class="nav-item ">
+    
+     <h1 class="text-light"> xyz@gmail.com</h2>
+        
+    </li>
+    
+            </ul>
+    
+    </div>
+    
+      </div>
+      </div>
 
 </body>
 </html>
